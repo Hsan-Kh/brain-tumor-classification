@@ -114,8 +114,7 @@ L'objectif n'est pas seulement de prédire, mais de **sécuriser la décision** 
 ---
 
 ## ⚖️ License/Licence
-Distributed under the MIT License. See `LICENSE` for more information.
-Distribué sous Licence MIT. Voir `LICENSE` pour plus d'informations.
+Distributed under the MIT License. See `LICENSE` for more information.  /  Distribué sous Licence MIT. Voir `LICENSE` pour plus d'informations.
 
 
 ---
