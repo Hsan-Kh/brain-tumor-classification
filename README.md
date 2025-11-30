@@ -6,6 +6,8 @@ NeuroGuard AI is a medical computer vision project designed to assist in the cla
 
 Unlike standard classifiers, this project features an **"Arena Consensus Engine"** that aggregates predictions from 4 different architectures to improve reliability, alongside a dedicated **EDA (Exploratory Data Analysis) Dashboard** for radiologists to inspect dataset integrity.
 
+Dataset: [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) (Kaggle)
+
 ![Project Status](https://img.shields.io/badge/Status-Prototype-blue) ![Python](https://img.shields.io/badge/Python-3.13.5-yellow) ![PyTorch](https://img.shields.io/badge/PyTorch-2.9.1-red) ![Streamlit](https://img.shields.io/badge/Streamlit-App-orange)
 
 ---
@@ -108,13 +110,13 @@ L'objectif n'est pas seulement de prédire, mais de **sécuriser la décision** 
 *   `src/` : Contient le moteur d'entraînement (`engine.py`) et la construction des modèles (`model_builder.py`).
 *   `train_arena.py` : Script pour entraîner les modèles et sauvegarder les fichiers de poids (`.pth`).
 
-### 📊 Données
-Le projet utilise le [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) disponible sur Kaggle.
 
 ---
 
-## ⚖️ License
+## ⚖️ License/Licence
 Distributed under the MIT License. See `LICENSE` for more information.
+Distribué sous Licence MIT. Voir `LICENSE` pour plus d'informations.
+
 
 ---
 **Author / Auteur :** Hsan KHECHAREM
