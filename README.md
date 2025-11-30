@@ -42,6 +42,11 @@ Unlike standard classifiers, this project features an **"Arena Consensus Engine"
         streamlit run eda.py
         ```
 
+4.  **Training **
+    If you want to train the models:
+    ```bash
+    python train_arena.py
+    ```
 
 ### 📂 Project Structure
 
@@ -64,7 +69,7 @@ L'objectif n'est pas seulement de prédire, mais de **sécuriser la décision** 
 
 *   **Architecture Multi-Modèles :** Utilisation du Transfer Learning sur **ResNet18** (référence), **MobileNetV2** (léger), **EfficientNetB0** (précis) et **DenseNet121** (optimisé pour les textures médicales).
 *   **Système "Arena" :** Un moteur de vote qui agrège les prédictions des 4 modèles pour fournir un score de confiance unifié.
-*   **Tableau de Bord EDA :** Une interface dédiée (`eda.py`) pour visualiser la distribution des classes, détecter les anomalies (outliers) et inspecter les images.
+*   **Tableau de Bord EDA :** Une interface dédiée (`eda.py`) pour visualiser la distribution des classes, détecter les anomalies (outliers) et inspecter la qualité des images.
 *   **Interface Moderne :** Application Streamlit avec un design "Glassmorphism" et une ergonomie adaptée au contexte médical.
 
 ### ⚙️ Installation et Utilisation
@@ -81,7 +86,7 @@ L'objectif n'est pas seulement de prédire, mais de **sécuriser la décision** 
     ```
 
 3.  **Lancer les Applications**
-    *   Pour l'outil de diagnostic :
+    *   Pour l'outil de diagnostic clinique :
         ```bash
         streamlit run app.py
         ```
@@ -89,6 +94,19 @@ L'objectif n'est pas seulement de prédire, mais de **sécuriser la décision** 
         ```bash
         streamlit run eda.py
         ```
+
+4.  **Entraînement **
+    Si vous souhaitez entraîner les modèles :
+    ```bash
+    python train_arena.py
+    ```
+
+### 📂 Structure du Projet
+
+*   `app.py` : Interface principale d'inférence (diagnostic).
+*   `eda.py` : Tableau de bord pour la visualisation des données et l'explication des architectures.
+*   `src/` : Contient le moteur d'entraînement (`engine.py`) et la construction des modèles (`model_builder.py`).
+*   `train_arena.py` : Script pour entraîner les modèles et sauvegarder les fichiers de poids (`.pth`).
 
 ### 📊 Données
 Le projet utilise le [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) disponible sur Kaggle.
