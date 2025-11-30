@@ -26,6 +26,7 @@ Dataset: [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickpar
 1.  **Clone the repo**
     ```bash
     git clone https://github.com/Hsan-Kh/brain-tumor-classification.git
+    cd brain-tumor-classification
     cd NeuroGuardAI
     ```
 
@@ -79,6 +80,7 @@ L'objectif n'est pas seulement de prédire, mais de **sécuriser la décision** 
 1.  **Cloner le projet**
     ```bash
     git clone https://github.com/Hsan-Kh/brain-tumor-classification.git
+    cd brain-tumor-classification
     cd NeuroGuardAI
     ```
 
