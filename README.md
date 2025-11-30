@@ -6,7 +6,7 @@ NeuroGuard AI is a medical computer vision project designed to assist in the cla
 
 Unlike standard classifiers, this project features an **"Arena Consensus Engine"** that aggregates predictions from 4 different architectures to improve reliability, alongside a dedicated **EDA (Exploratory Data Analysis) Dashboard** for radiologists to inspect dataset integrity.
 
-![Project Status](https://img.shields.io/badge/Status-Prototype-blue) ![Python](https://img.shields.io/badge/Python-3.9+-yellow) ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red) ![Streamlit](https://img.shields.io/badge/Streamlit-App-orange)
+![Project Status](https://img.shields.io/badge/Status-Prototype-blue) ![Python](https://img.shields.io/badge/Python-3.13.5-yellow) ![PyTorch](https://img.shields.io/badge/PyTorch-2.9.1-red) ![Streamlit](https://img.shields.io/badge/Streamlit-App-orange)
 
 ---
 
