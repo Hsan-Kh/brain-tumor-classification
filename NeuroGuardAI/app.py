@@ -177,7 +177,6 @@ if uploaded_file:
                 st.markdown('<div class="glass-card">', unsafe_allow_html=True)
                 st.subheader("⚔️ Arena Consensus Engine")
                 
-                # ### NEW CHANGE: Added densenet121 to voting pool ###
                 models = ["resnet18", "mobilenet", "efficientnet", "densenet121"]
                 votes = []
                 results_data = []
