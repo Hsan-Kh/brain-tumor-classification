@@ -359,7 +359,6 @@ with tab4:
     st.header("4. Clinical Performance Evaluation")
     st.markdown("Evaluation metrics on the independent Test Set.")
     
-    # ### NEW CHANGE: Added densenet121 to selectbox ###
     model_choice = st.selectbox("Select Model for Report", ["resnet18", "mobilenet", "efficientnet", "densenet121"])
 
     @st.cache_data(show_spinner="Running inference on full Test Set... (This happens once)")
